@@ -30,6 +30,11 @@
           <li>CSS code is defined within curly brackets, { }, within a document.</li>
           <li>CSS is good for organizing and creating the visual flairs of a page.</li>
           <li>Classes and id's are usually defined by style sheets near the top of the document, within its own element.</li>
+          <li>CSS documents within projects define strict style sheets, allowing devs to make large aesthetic changes to a project while defining what components apply within HTML.</li>
+          <li>CSS code blocks begin with a selector followed by a declaration in curly brackets.</li>
+          <li>Declarations are sets of two key components: the CSS property we wish to apply to the selector, then its value separated by a semicolon.</li>
+          <li>Making a selector an asterisk makes the following delcarations apply to the whole HTML file.</li>
+          <li>CSS classes with a period proceeded by a selector (example: .card) which can then be applied to HTML sections by assigning them that class.</li>
         </ul>
       </section>
       <section class="card" id="git-section">
@@ -56,8 +61,32 @@
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
-          <li>I don't know much about Javascript yet, but I do know that it can manipulate and change elements within HTML documents.</li>
-          <li>This allows us to add functionality for end user interaction with the webpage. Things like buttons, for instance.</li>
+          <li>JavaScript allows us to add functionality for end user interaction with the webpage. Things like buttons, for instance.</li>
+          <li>There is a LOT to learn about JavaScript, so for more complete information, please read the official documentation as well.</li>
+          <li>To cover the Java used to present this site, let's go over Variables, Arrays, Iteration, and Functions.</li>
+          <li>Variables are pieces of data defined at the beginning of a JavaScript document. Mutable Variables are declared with either the var or let keyword, while immutable, or non-changing Variables are declared with const.</li>
+          <li>The difference in deciding to use let between var is scope. Variables declared with let are only available within the code block they're declared. Variables declared with var, however, are available within the Function they're defined.</li>
+          <li>Example: let myName = 5;</li>
+          <li>An important concept moving forward one should become familiar with are data types.</li>
+          <li>In very basic terms, JavaScript deals with four distinct data types: String, Numbers, Booleans, and Objects.</li>
+          <li>Think of these data types as distinct ways for the computer to understand our code, or instructions, to it. Knowing the distinction between data types helps define how to think in JavaScript and be able to more easily read it.</li>
+          <li>Arrays are ways to store data, however while Variables may only store one piece of data, an Array allows us to store data in a related list.</li>
+          <li>Example: let myCats = ['Ella', 'Misty', 'Pearl'];</li>
+          <li>Data can be retrieved from Arrays by calling for the data's position within the Array. Because we work with computers, the first item in an Array is item [0], with positions incrementing from the left thusly.</li>
+          <li>An example from the earler example Array would be that 'Ella' would be item [0]. You could use her in code elsewhere like: myCats[0];</li>
+          <li>Data in JavaScript can be expressed via labels, which enables flexibility within the language.</li>
+          <li>This is why we make Variables. With them, we can repeat complex or changing data throughout the code by using plain English, making the code easier to understand.</li>
+          <li>JavaScript is what we call "Object Oriented Programming," meaning that the code is divided and understood in discreet chunks of code and information that can speak to each other indirectly.</li>
+          <li>Classes are, usually, in-built (or baked) Objects. We can use them to call certain functionality into our code that's already been hard-coded into JavaScript. More experienced users may also create their own Classes.</li>
+          <li>Methods are usually children of Objects and can be called from them by separating the name of the Class and then the method with a period.</li>
+          <li>Example: console.log("Insert string here!");</li>
+          <li>Notice the String in parentheses. This is the argument of the Class's Method (the .log part of the example, basically it's the executable part of a Class) which lets us define values to apply to a Function, or the process of a Method.</li>
+          <li>Functions are kind of like mini-Classes, or are code blocks that can execute elsewhere in code.</li>
+          <li>Functions are created with the function keyword, followed by its name, then its argument which can be blank if you don't need to define specific value relationships. Then, between two curly brackets, we can write what code we want to execute when the function is called elsewhere.</li>
+          <li>Remember that Functions cannot be executed by themselves. Additionally, they become like Classes in that we can call them anywhere else now.</li>
+          <li>Example of calling a function: myFunc();</li>
+          <li>We can also loop code with for loops, which are, unsurprisingly, created with the for keyword. These use incremental math to loop a following line of code that may have its scope defined in its argument, having the loop stop once its scope is satisfied.</li>
+          <li>Example: for (var i = 0; i < topics.length; i++) { /*Insert Code Here.*/ }</li>
         </ul>
       </section>
       </main>
